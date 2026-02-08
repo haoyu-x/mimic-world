@@ -26,6 +26,7 @@ git clone --branch v1.5.1 https://github.com/ARISE-Initiative/robosuite.git
 - [Robomimic Dataset Download](https://robomimic.github.io/docs/datasets/robomimic_v0.1.html)
 - [Environment Initialization](https://robomimic.github.io/docs/modules/environments.html)
 - [Dataset Playback](https://robomimic.github.io/docs/tutorials/dataset_contents.html)
+- [Dataset Collection](https://github.com/ARISE-Initiative/robosuite/blob/v1.5.1/robosuite/scripts/collect_human_demonstrations.py)
 - [Rollout](https://github.com/ARISE-Initiative/robomimic/blob/master/robomimic/utils/train_utils.py#L275)
 - [Rollout](https://github.com/ARISE-Initiative/robomimic/blob/master/robomimic/scripts/run_trained_agent.py)
 - [Data Collection](https://robomimic.github.io/docs/datasets/robosuite.html)
