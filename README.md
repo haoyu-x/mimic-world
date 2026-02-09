@@ -24,6 +24,14 @@ git clone --branch v1.5.1 https://github.com/ARISE-Initiative/robosuite.git
 
 ## Resources
 - [Robomimic Dataset Download](https://robomimic.github.io/docs/datasets/robomimic_v0.1.html)
+
+download:
+(robomimic_venv) haoyux@MIT-ThinkPad:~/mimic-world/robomimic/robomimic/scripts$ python download_datasets.py --tasks square --dataset_types ph mh --hdf5_types raw
+raw to videos:
+(robomimic_venv) haoyux@MIT-ThinkPad:~/mimic-world/robomimic/robomimic/scripts$ vim extract_obs_from_raw_datasets.sh 
+split train and val:
+(robomimic_venv) haoyux@MIT-ThinkPad:~/mimic-world/robomimic/robomimic/scripts$ python split_train_val.py  --dataset ../../datasets/square/mh/image_v15.hdf5 
+
 - [Dataset Playback](https://robomimic.github.io/docs/tutorials/dataset_contents.html)
 - [Data Collection Doc](https://robomimic.github.io/docs/datasets/robosuite.html)
 - [Dataset Collection](https://github.com/ARISE-Initiative/robosuite/blob/v1.5.1/robosuite/scripts/collect_human_demonstrations.py)
