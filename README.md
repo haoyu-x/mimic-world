@@ -45,6 +45,11 @@ python robomimic/scripts/download_datasets.py \
 ```bash
 bash robomimic/scripts/extract_obs_from_raw_datasets.sh
 ```
+### 2.1 Extract Observations and SDVAE latents from Raw Data
+
+```bash
+python robomimic/scripts/dataset_states_to_obs_sdvae_latents.py 
+```
 
 ### 3. Split Train and Validation
 
