@@ -2,6 +2,11 @@
 
 ## Evaluation
 
+### Dataset design
+- Play data
+- Expert + noise replay
+- Policy rollout
+
 ### Visual Quality
 - Open loop rollout
 - Vision metrics
