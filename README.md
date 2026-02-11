@@ -7,8 +7,10 @@
 - Expert + noise replay
 - Policy rollout
 
+
+
 ### Visual Quality
-- Open loop rollout
+- Open loop rollout; policy rollout in GT sim traj; play data; expert + noise
 - Vision metrics
 
 ### Physical Quality
