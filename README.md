@@ -4,8 +4,7 @@
 
 ### Dataset design
 - Play data
-- Expert + noise replay
-- Policy rollout
+- Policy rollout + noise
 
 
 
