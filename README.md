@@ -15,7 +15,7 @@
 ### Physical Quality
 - Closed loop rollout
 - Policy evaluation inside the world model
-- Using generated data to train a new policy and rollout in GT sim
+- Using generated data to train a new policy and rollout in GT sim: ideally you want to RL inside the world mode, but we only have transition model here, so let's do a minimal exp.
 
 ### Real world benchmark
 - one scene, multi-task
