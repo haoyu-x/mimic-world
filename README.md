@@ -16,6 +16,9 @@
 - Closed loop rollout
 - Policy evaluation inside the world model
 
+### Real world benchmark
+- one scene, multi-task
+- one world model, multi policies
 ## Setup
 
 ```bash
