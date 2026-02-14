@@ -15,6 +15,7 @@
 ### Physical Quality
 - Closed loop rollout
 - Policy evaluation inside the world model
+- Using generated data to train a new policy and rollout in GT sim
 
 ### Real world benchmark
 - one scene, multi-task
